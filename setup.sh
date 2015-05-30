@@ -35,4 +35,5 @@ fi
 
 /src/backup.sh rev-sync
 
+crontab /etc/cron.d/backup
 cron && tail -f /var/log/cron.log
